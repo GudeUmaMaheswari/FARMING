@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<link href="footer.css" rel="stylesheet">
+        <style>
+
+h3{
+    text-align:center;
+ }
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
+.slider {
+        width: 500px;
+        height: 300px;
+        background-color: yellow;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        text-align: center;
+        overflow: hidden;
+      }
+      .image-container {
+        width: 1500px;
+        background-color: pink;
+        height: 300px;
+        clear: both;
+        position: relative;
+        -webkit-transition: left 2s;
+        -moz-transition: left 2s;
+        -o-transition: left 2s;
+        transition: left 2s;
+      }
+      .slide {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+      }
+      #slide-1:target ~ .image-container {
+        left: 0px;
+      }
+      #slide-2:target ~ .image-container {
+        left: -500px;
+      }
+      #slide-3:target ~ .image-container {
+        left: -1000px;
+      }
+      .buttons {
+        position: relative;
+        top: -20px;
+      }
+      .buttons a {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        background-color: brown;
+      }
+      * {
+        box-sizing: border-box;
+      }
+
+      .row {
+      display: flex;
+      }
+
+      .column {
+      flex: 33.33%;
+      padding: 4px;
+      }
+      
+        </style>
+        <title> Farming </title>
+        <meta charset="utf-8" />
+
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    </head>
+    
+    <body>
+        <!-- Responsive Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">Agriculture</a>
+
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navBarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navBarCollapse">
+                    <div class="navbar-nav">
+                        <a href="#" class="nav-item nav-link active">Home</a>
+                        <a href="#" class="nav-item nav-link">About Us</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Fields</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Pestisides</a>
+                                <a href="#" class="dropdown-item">Fertilizers</a>
+                                <a href="#" class="dropdown-item">Crops</a>
+                                <a href="#" class="dropdown-item">Cultivation</a>
+                                <a href="#" class="dropdown-item">Soil</a>
+                            </div>
+                        </div>
+
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Major Crops</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Wheat</a>
+                                <a href="#" class="dropdown-item">Maize</a>
+                                <a href="#" class="dropdown-item">Cotton</a>
+                                <a href="#" class="dropdown-item">Sugarcane</a>
+                                <a href="#" class="dropdown-item">Chilli</a>
+                            </div>
+                        </div>
+                           
+                    </div>
+                    
+                    <div class="navbar-nav ms-auto">
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">My Account</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Register</a>
+                                <a href="#" class="dropdown-item">Login</a>
+                            </div>
+                        </div>
+                        <a href="#" class="nav-item nav-link">ContactUs</a>
+                    </div>
+
+                    <div class="d-flex">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="search.," />
+                            <button type="button" class="btn btn-secondary">
+                                <i class="bi-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <h3 style="color:red;"><center>SOIL</center></h3>
+       
+        <h6><center>Soils provide anchorage for roots, hold water and nutrients. Soils are home to myriad
+             micro-organisms that fix nitrogen and decompose organic matter, and armies of microscopic 
+             animals as well as earthworms and termites. We build on soil as well as with it and in it.
+              Soil plays a vital role in the Earth's ecosystem.
+              Soils supply the essential nutrients, water, oxygen and root support that our food-producing 
+              plants need to grow and flourish. They also serve as a buffer to protect delicate plant roots
+               from drastic fluctuations in temperature.
+               Soil is the most important aspect for our life. The economy based sectors include soil in India.
+                India is a land of vast dimensions with different conditions of geology, relief, climate and vegetation.
+                 Here, you can get different types of soil cultivation. Therefore, India has a large diversity of soil 
+                 groups which include different types of soil. All the Soils are markedly different from each other.
+                  Various criteria have been applied to classify Indian soils like Geology, relief, fertility, 
+                  chemical composition and physical composition and so on. Soil formation is so good in a particular 
+                  climate that each climate type has its own soil.</center></h6>
+
+            <img src="https://media.istockphoto.com/photos/an-unrecognizable-farmer-working-in-the-field-hes-analyzing-his-land-picture-id1343851002?b=1&k=20&m=1343851002&s=170667a&w=0&h=dlIcS3RBN1mooVZUI4r2X8K0D8f08hs3gl-erhoFxgE=" width="400px">
+            <img src="https://media.istockphoto.com/photos/closeup-hand-of-person-holding-abundance-soil-for-agriculture-or-picture-id1320100367?b=1&k=20&m=1320100367&s=170667a&w=0&h=OxITzbhVIOS5W87Rx-O4PgRqTk1iGP4MmhIarwIcuwU=" width="400px">
+            <img src="https://media.istockphoto.com/photos/kids-hands-hold-soil-with-plants-seedlingsenvironment-earth-day-save-picture-id1324081554?b=1&k=20&m=1324081554&s=170667a&w=0&h=GuldqP-4ajB5blaLTwpWsIl1Mt_jEqN9WMI37DBzUBQ=" width="400px">
+
+    <h4>What Is The Role of Different Types of Soil In Agriculture?</h4>
+    <p>Soil provides the structural support to plants used in agriculture and is also their source of water and nutrients.
+         Soils vary greatly in their chemical and physical properties. Processes such as leaching, weathering and microbial 
+         activity combine to make a whole range of different soil types.
+         Soils have different chemical and physical properties. Each soil type has specific strengths and weaknesses for
+          agricultural production. To differentiate soils is of great help from their physical properties. 
+          Physical properties mean what we can see and touch like texture, colour, depth, structure, porosity 
+          (the space between the particles) and stone content.</p>
+    <h4>Soil Management In Agriculture</h4>
+    <p>Soil management is the application of operations, practices, and treatments to protect soil and enhance 
+        its performance (such as soil fertility or soil mechanics). It includes soil conservation, soil amendment,
+         and optimal soil health.</p>
+         <h4>Management Practices To Improve Soil Health</h4>
+         <ul>
+             <li>Reduce Inversion Tillage and Soil Traffic. Excessive tillage is harmful to soil health in a number of ways.</li>
+             <li>Increase Organic Matter Inputs.</li>
+             <li>Use Cover Crops.</li>
+             <li>Reduce Pesticide Use and Provide Habitat for Beneficial Organisms.</li>
+             <li>Rotate Crops.</li>
+             <li>Manage Nutrients.</li>
+         </ul>
+    <h4>Soil Importance In Agriculture</h4>
+    <p>Soil is a critical part of successful agriculture and is the original source of the nutrients that we use to grow crops.
+         The nutrients move from the soil into plants that we eat like tomatoes. Nutrients are also a part of the food animals 
+         (like cows) eat. In the end, we benefit from healthy soil.
+         Healthy soil produces the most nutritious and most abundant food supply. As the healthiest soils produce most food, 
+         they have also been at the centre of the best communities in history. The ancient Egyptians had fresh nutrients brought 
+         to their fields by the floods of the Nile every year. It allows farmers to use the same soil for a very long time. 
+         Some other ancient civilizations had soils that were nutrient deficient or did not contain much water.</p>
+    <h4>Soil Structures</h4>
+    <p>Soil structure is defined by the way individual particles of sand, silt, and clay are assembled. Single particles when 
+        assembled appear as larger particles. These are called aggregates . Aggregation of soil particles can occur in 
+        different patterns, resulting in different soil structures.</p>
+        <div class="slider">
+            <span id="slide-1"></span>
+            <span id="slide-2"></span>
+            <span id="slide-3"></span>
+            <div class="image-container">
+              <img src="https://media.istockphoto.com/photos/soil-layers-four-sross-section-soil-layers-3d-illustration-light-picture-id869719380?b=1&k=20&m=869719380&s=170667a&w=0&h=K2mh9tLGAI3fZnxLTRIMZzy7PUVO8WKuhR0WyHgT_aU=" class="slide" width="500" height="300" />
+              <img src="https://cdn.pixabay.com/photo/2019/06/18/17/52/dry-4282884__480.jpg" class="slide" width="500" height="300" />
+              <img src="https://cdn.pixabay.com/photo/2020/03/21/11/57/texture-4953613__340.jpg" class="slide" width="500" height="300" />
+              
+            </div>
+            <div class="buttons">
+              <a href="#slide-1"></a>
+              <a href="#slide-2"></a>
+              <a href="#slide-3"></a>
+            </div>
+          </div>
+    <h4>How To Check Soil Structures?</h4>
+    <p>Place a cup of dry topsoil or subsoil in a 20-cm container (for example, a cordial bottle), fill with clean water and 
+        shake vigorously for a few minutes. Stand the bottle upright and watch carefully as the soil particles settle in the
+         following order: gravel, sand, silt, clay. Most particles settle within five minutes</p>
+    <h5>Types Of Soil Structures</h5>
+    <p>There are five major classes of structure seen in soils: platy, prismatic, columnar, granular, and blocky.</p>
+    <ol>
+        <li><b>Platy Soil Struture</b><br>
+            <img src="https://cdn.pixabay.com/photo/2016/04/13/02/01/climate-change-1325882__340.jpg" width="400px"><br>
+            In platy structure, the units are flat and platelike. They are generally oriented horizontally. A special form,
+             lenticular platy structure, is recognized for plates that are thickest in the middle and thin toward the edges. 
+             Platy structure is usually found in subsurface soils that have been subject to leaching or compaction by animals
+              or machinery. The plates can be separated with a little effort by prying the horizontal layers with a pen knife. Platy 
+              structure tends to impede the downward movement of water and plant roots through the soil.</li>
+        <li><b>Prismatic Soil Sructure</b><br>
+            <img src="https://cdn.pixabay.com/photo/2016/03/10/05/42/ground-1247893__340.jpg" width="400px"><br>
+            In prismatic structure, the individual units are bounded by flat to rounded vertical faces. Units are distinctly 
+            longer vertically, and the faces are typically casts or molds of adjoining units. Vertices are angular or subrounded; 
+            the tops of the prisms are somewhat indistinct and normally flat. Prismatic structures are characteristic of the B horizons 
+            or subsoils. The vertical cracks result from freezing and thawing and wetting and drying as well as the downward 
+            movement of water and roots.</li>
+        <li><b>Blocky Soil Structure</b><br>
+            <img src="https://images.unsplash.com/photo-1582288916603-4698cf723bf6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHNvaWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" width="400px"><br>
+            In blocky structure, the structural units are blocklike or polyhedral. They are bounded by flat or slightly rounded surfaces 
+            that are casts of the faces of surrounding peds. Typically, blocky structural units are nearly equidimensional but grade to prisms
+             and to plates. The structure is described as angular blocky if the faces intersect at relatively sharp angles; as subangular
+              blocky if the faces are a mixture of rounded and plane faces and the corners are mostly rounded. Blocky structures are common 
+              in subsoil but also occur in surface soils that have a high clay content. The strongest blocky structure is formed as a result 
+              of swelling and shrinking of the clay minerals which produce cracks. Sometimes the surface of dried-up sloughs and ponds shows 
+              characteristic cracking and peeling due to clays.</li>
+        <li><b>Granular Soil Structure</b><br>
+            <img src="https://cdn.pixabay.com/photo/2015/09/20/07/21/dirt-947985__340.jpg" width="400px"><br>
+            In granular structure, the structural units are approximately spherical or polyhedral and are bounded by curved or very irregular 
+            faces that are not casts of adjoining peds. In other words, they look like cookie crumbs. Granular structure is common in the surface 
+            soils of rich grasslands and highly amended garden soils with high organic matter content. Soil mineral particles are both separated and 
+            bridged by organic matter breakdown products, and soil biota exudates, making the soil easy to work. Cultivation, earthworms, frost
+             action and rodents mix the soil and decreases the size of the peds. This structure allows for good porosity and easy movement of air and water.
+              This combination of ease in tillage, good moisture and air handling capabilities, and good structure for planting and germination, are 
+              definitive of the phrase good tilth.</li>
+    </ol>
+
+    <center><h4 style="color: crimson;">Different Types Of Soil</h4>
+    <p><b>A soil type is a taxonomic unit in soil science. All soils that share a certain set of well-defined properties form a distinctive soil type. 
+        Soil type is a technical term of soil classification, the science that deals with the systematic categorization of soils. Every soil of
+         the world belongs to a certain soil type</b></p></center>
+    <ol>
+        <li><h5>Sandy Soil:-</h5>
+            <img src="https://media.istockphoto.com/photos/background-of-earth-and-dirt-picture-id96707219?b=1&k=20&m=96707219&s=170667a&w=0&h=0Smizdg4QpjT6Yv6WLnM6p8nsEbOs_WqorN7bTq2b1U=" width="400px"><br>
+            Sandy soils are those that are generally coarse textured until 50 cm depth and consequently retain few nutrients
+             and have a low water holding capacity. Soil management practices which lead to an increase in the fine fraction are helpful in improving
+              soil properties and crop productivity.
+              They may also be sandy-skeletal containing 35 per cent or more of rock fragments. They occur mostly in western Rajasthan, southern Haryana,
+               south-west Punjab and north-western parts of Gujarat in arid to semi-arid region and along the east and west coasts of India.
+              Sandy Soil is light, warm, dry and tends to be acidic and low in nutrients. Sandy soils are often known as light soils due to 
+              their high proportion of sand and little clay (clay weighs more than sand).These soils have quick water drainage and 
+              are easy to work with. They are quicker to warm up in spring than clay soils but tend to dry out in summer and 
+              suffer from low nutrients that are washed away by rain.The addition of organic matter can help give plants an additional
+               boost of nutrients by improving the nutrient and water holding capacity of the soil.</li>
+    
+               <ul>
+                   <li><h5>Mostly Available Regions-</h5></li>
+                   They occur mostly in western Rajasthan, southern Haryana, south-west Punjab and north-western parts of Gujarat in arid to 
+                   semi-arid region and along the east and west coasts of India.
+                   <li><h5>Best Soil For Growing Crops-</h5></li>
+                   Vegetable plants that thrive in sandy soil are Carrots, Radishes, Potatoes, Lettuce, Collard greens, Tomatoes, 
+                   Zucchini, Corn, Asparagus, Watermelon, Beans, and Cucumber. Herbs that thrive in sandy soil are Thyme, Rosemary, and Oregano.
+               </ul>
+    
+      
+           <li><h5>Clay Soil:-</h5>
+            <img src="https://media.istockphoto.com/photos/natural-clay-piece-in-hands-isolated-on-white-background-picture-id1132467590?b=1&k=20&m=1132467590&s=170667a&w=0&h=7k5gSpidGPlWcE-Qpt7JsI6a4DTucsf6q4b6Iusu6q4=" width="400px"><br>  
+             Clay Soil is a heavy soil type that benefits from high nutrients. Clay soils remain wet and cold in winter and dry out in summer. 
+             These soils are made of over 25 percent clay, and because of the spaces found between clay particles, clay soils hold a high amount of water. 
+             Because these soils drain slowly and take longer to warm up in summer, combined with drying out and cracking in summer, they can often test gardeners.
+             One of the best types of soil for your garden is clay soil. The biggest difference between clay soil and other types of soil is that clay 
+             soil is made of finer particles. This means it's easier for this soil to retain water and nutrients.
+             Clay soils provide a wonderful foundation for plants by anchoring roots securely in the soil. 
+             Many perennials and annuals thrive in clay soils since they can get a firm grip on the soil with their roots.
+
+             <ul>
+                <li><h5>Mostly Available Regions-</h5></li>
+                It is mostly found in areas such as Gujarat, Madhya Pradesh, and Maharashtra. It is also found in states like 
+                Tamil Nadu, Andhra Pradesh, and Karnataka. Black soil is excellent and clayey and can hold a lot of moisture.
+                <li><h5>Best Soil For Growing Crops-</h5></li>
+                Clayey soil is rich in humus and very fertile, so it is suitable for growing cereals like wheat and gram. 
+                Such soil is good at retaining water.
+                Although most fruit trees will grow in clay soil. Stone or Pome fruit such as apple peach, cherry, pears, 
+                and nectarines have the best chances of thriving in clay soil. They require at least 3 feet of topsoil in order for good root growth.
+            </ul>
+
+            <li><h5>Slit Soil:</h5></li>
+            <img src="https://media.istockphoto.com/photos/isolated-shot-of-humus-soil-border-on-white-background-picture-id478219693?b=1&k=20&m=478219693&s=170667a&w=0&h=zUljjDolNzVoG-raF7pG4CnFpM8w8owxDuzS7sN-0xo=" width="400px"><br>
+            Silty soil is slippery when wet, not grainy or rocky. The soil itself can be called silt if its silt content
+             is greater than 80 percent. When deposits of silt are compressed and the grains are pressed together, rocks such
+              as siltstone form. Silt is created when rock is eroded, or worn away, by water and ice.
+              Silt Soil is a light and moisture retentive soil type with a high fertility rating.
+             As silt soils compromise of medium sized particles they are well drained and hold moisture well.
+             As the particles are fine, they can be easily compacted and are prone to washing away with rain.
+             By adding organic matter, the silt particles can be bound into more stable clumps.
+             Silty soil is usually more fertile than other types of soil, meaning it is good for growing crops. 
+             Silt promotes water retention and air circulation. Too much clay can make soil too stiff for plants to thrive.
+
+             <ul>
+                <li><h5>Mostly Available Regions-</h5></li>
+                Silt is easily transported by moving currents and it is mainly found near the river,
+                 lake and other water bodies. The silt soil is more fertile compared to the other three types of soil.
+                <li><h5>Best Soil For Growing Crops-</h5></li>
+                At least 35-40% of India has silty soil. This soil is rich in potash and the plants or crops that grow well 
+                on this soil are tomatoes, sage, peonies, hellebore, roses, butterfly bush, ferns, daffodils, etc.
+            </ul>
+
+            <li><h5>Loam Soil:</h5></li>
+            <img src="https://images.unsplash.com/photo-1523349312806-f5dde0a01c32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHNvaWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" width="400px"><br>
+            Loam is soil made with a balance of the three main types of soil: sand, silt, and clay soil. As a general rule, 
+            loam soil should consist of equal parts of all three soil types. This combination of soil types creates the perfect 
+            soil texture for plant growth
+            These soils are fertile, easy to work with and provide good drainage. Depending on their predominant composition they can be either sandy or clay loam.
+            As the soils are a perfect balance of soil particles, they are considered to be a gardeners best friend, but still 
+            benefit from topping up with additional organic matter.
+            An example of loam is a rich dark soil used for planting. Loam is defined as to add rich soil to dirt. An example of loam
+             is to add rich soil over existing dirt to prepare a yard for planting a lawn. A kind of soil; an earthy mixture of clay 
+             and sand, with organic matter to which its fertility is chiefly due.
+
+             <ul>
+                <li><h5>Mostly Available Regions-</h5></li>
+                This type of soil is widespread in the Northern Plains of India. Alluvial soils are rich in humus as they
+                 are deposited by three important river of Himalayas, Indus river, Ganges and Brahmaputra River.
+                <li><h5>Best Soil For Growing Crops-</h5></li>
+                Loamy soil is ideal for growing crops such as wheat, sugarcane, cotton, jute, pulses, and oilseeds. 
+                Vegetables also grow well in this soil.
+            </ul>
+
+            <li><h5>Black Soil:</h5></li>
+            <img src="https://media.istockphoto.com/photos/agriculture-organic-gardening-planting-or-ecology-concept-dirty-woman-picture-id1226374342?b=1&k=20&m=1226374342&s=170667a&w=0&h=lSpaFFQHPngB6CRgUKHXBMqFThkWXDhfb6QkV0lortw=" width="400px"><br>
+            Black soils are mineral soils which have a black surface horizon, enriched with organic carbon
+             that is at least 25 cm deep.
+             Black soils known locally as regur. After those the alluvial soil is the third most-common type.
+              Also significant are the desert soils of Rajasthan, the saline soils in Gujarat, southern Rajasthan, 
+              and some coastal areas, and the mountain soils of the Himalayas.
+            Black soils constitute the food basket for many countries and for the world in general and are often 
+            recognized as inherently productive and fertile soils. They are extensively and intensively farmed, 
+            and increasingly dedicated to cereal production, pasture, range and forage systems.
+            
+            <ul>
+                <li><h5>Mostly Available Regions-</h5></li>
+                Black soils are derivatives of trap lava and are spread mostly across interior Gujarat, Maharashtra,
+                 Karnataka, and Madhya Pradesh on the Deccan lava plateau and the Malwa Plateau, where there is both 
+                 moderate rainfall and underlying basaltic rock.
+                <li><h5>Best Soil For Growing Crops-</h5></li>
+                Black soil is rich in calcium, potassium and magnesium but has poor nitrogen content. 
+                Crops like cotton, tobacco, chilly, oil seeds, jowar, ragi and maize grow well in it.
+            </ul>
+
+            <li><h5>Arid Soil:</h5></li>
+            <img src="https://media.istockphoto.com/photos/sunset-at-a-desert-picture-id469723319?b=1&k=20&m=469723319&s=170667a&w=0&h=lY-bGmfiye6-tj3VPC3gKJY5oPFtZWysTsoRfK6_cec=" width="400px"><br>
+            Arid soils contain a substantial amount of soluble salts. It is alkaline in nature because there is no
+            rain to wash soluble salts. These soils are very infertile in nature. Arid soils are most characterized 
+            by their water deficiencies. It contains high levels of gypsum, calcium carbonates, sodium.
+            In India, the arid soil is mainly found in parts of Western Rajasthan, Haryana, and Punjab and
+            extends up to the Rann of Kutch in Gujarat. They are one of the most prevalent soil orders in the world. 
+            It is also called desert soil in some places.
+            Arid soils are formed from the fragmentation of adjacent rocks and are largely blown from Indus valley 
+            area and coastal regions. They mainly can be seen developing western Rajasthan. It mainly ranges 
+            from red to brown in colour. It is generally sandy to gravelly in texture, and have a high percentage of soluble salts.
+
+            <ul>
+                <li><h5>Mostly Available Regions-</h5></li>
+                Arid and semi-arid soils are mainly found in Africa (Sahara, Namibian and Kalahari deserts), the Middle East 
+                (Arabian desert, Iran, Afghanistan, Rajasthan, etc.), North and South America (Mohave desert, Chile, etc.) and Australia
+                <li><h5>Best Soil For Growing Crops-</h5></li>
+                Suitable Crops of Arid Soils – You can grow any drought and saline-tolerant crops such as wheat, 
+                cotton, corn (maize), millets, pulses, and barley.01-May-2021
+            </ul>
+
+            <li><h5>Red Soil:</h5></li>
+            <img src="https://media.istockphoto.com/photos/red-clay-picture-id845106758?b=1&k=20&m=845106758&s=170667a&w=0&h=6dC4wvy6VTgRhrzElC6pConlBQ79elve0pbTDQ3UOBU=" width="400px"><br>
+            Red soil is a type of soil that typically develops in warm, temperate, and humid climates and comprise approximately
+             13% of Earth's soils. It contains thin organic and organic-mineral layers of highly leached soil resting 
+             on a red layer of alluvium.
+             Soil color is produced by the minerals present and by the organic matter content. Yellow or red soil indicates 
+             the presence of oxidized ferric iron oxides. Dark brown or black color in soil indicates that the soil has a 
+             high organic matter content. Wet soil will appear darker than dry soil.
+
+             <ul>
+                <li><h5>Mostly Available Regions-</h5></li>
+                Red soils are predominantly found in South America, Central Africa, South and Southeast Asia, China, India, 
+                Japan and Austra1ia. In general, these soils have good physical conditions for plant growth although they 
+                often have very low water-holding capacity.
+                <li><h5>Best Soil For Growing Crops-</h5></li>
+                The lowermost area of red soil is dark in color and very fertile, while the upper layer is sandy and porous. 
+                Thus, proper use of fertilizers and irrigation yields high production of cotton, wheat, rice, pulses,
+                 millets, tobacco, oil seeds, potatoes, and fruits.
+            </ul>
+
+            <div id="gallery">
+  
+                <img src="https://media.istockphoto.com/photos/mud-plaster-picture-id160582559?b=1&k=20&m=160582559&s=170667a&w=0&h=l7JNCPmoF7uHKoidh1NmGdGWcpaQDL0joVf3cZcliOw=" width="200px">
+                <img src="https://media.istockphoto.com/photos/dried-cracked-red-soil-picture-id1332960371?b=1&k=20&m=1332960371&s=170667a&w=0&h=R74qvmganTESiO3NKJ1t0PEE0elUTkTw-EMlUJ7pTmE=" width="200px">
+                <img src="https://media.istockphoto.com/photos/red-soil-natural-background-picture-id1292383862?b=1&k=20&m=1292383862&s=170667a&w=0&h=c11e_P4WY1YdLe21oaPnZAkvHBz21HVZzkxo9i5VEu0=" width="200px">
+                <img src="https://media.istockphoto.com/photos/red-soil-picture-id1317523092?b=1&k=20&m=1317523092&s=170667a&w=0&h=g7RYORnsAXFSd8HhvIg9iLtfWsgEsvIoKAxi9eWj0Bc=" width="200px" height="130px">
+                <img src="https://cdn.pixabay.com/photo/2022/04/16/01/01/drought-7135470__340.jpg" width="200px" height="130px">
+                <img src="https://cdn.pixabay.com/photo/2018/02/02/09/33/soil-3124994__340.jpg" width="200px" height="130px">
+                <img src="https://cdn.pixabay.com/photo/2017/04/19/03/03/climate-change-2241061__340.jpg" width="200px" height="130px">
+                <img src="https://cdn.pixabay.com/photo/2015/05/22/23/25/drought-780088__340.jpg" width="200px" height="130px">
+                <img src="https://cdn.pixabay.com/photo/2014/03/05/21/12/desert-279862__480.jpg" width="200px" height="130px">
+                <img src="https://cdn.pixabay.com/photo/2015/04/23/13/59/desert-736096__340.jpg" width="200px" height="130px">
+                <img src="https://cdn.pixabay.com/photo/2021/07/05/04/49/soil-6388126__340.jpg" width="200px" height="130px">
+                <img src="https://cdn.pixabay.com/photo/2017/02/03/18/50/desert-2035910__340.jpg" width="200px" height="130px">
+               </div>
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+          <img src="img/logo.png">
+			
+
+				<p class="footer-links">
+					<a href="#">Home</a>
+					|
+					<a href="#">About</a>
+					|
+					<a href="#">Contact</a>
+				</p>
+
+				<p class="footer-company-name">© 2020 Try shades Pvt Ltd.All Rights Reserved</p>
+			</div>
+
+			<div class="footer-center">
+				<div>
+					<i class="fa fa-map-marker"></i>
+					  <p><span>RGUKT IIIT IDUPULAPAYA</span>
+						Vempalli, Kadapa- 516330</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+91 xxxxxxxxxx</p>
+				</div>
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="Tryshades@gmail.com.com">tryshades@gmail.com</a></p>
+				</div>
+			</div>
+			<div class="footer-right">
+				<p class="footer-company-about">
+					<span>About the company</span>
+					The information and services may contain bugs, errors, problems or other limitations. We have no liability whatsoever for your use of any information or service. Use any service or information given here at your own risk. Read our full Terms of Service.</p>
+				<div class="footer-icons">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-youtube"></i></a>
+				</div>
+			</div>
+		</footer>
+
+               <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+       
+            </body>
+        </html>

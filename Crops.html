@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<link href="footer.css" rel="stylesheet">
+        <style>
+
+h3{
+    text-align:center;
+ }
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
+.slider {
+        width: 500px;
+        height: 300px;
+        background-color: yellow;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        text-align: center;
+        overflow: hidden;
+      }
+      .image-container {
+        width: 1500px;
+        background-color: pink;
+        height: 300px;
+        clear: both;
+        position: relative;
+        -webkit-transition: left 2s;
+        -moz-transition: left 2s;
+        -o-transition: left 2s;
+        transition: left 2s;
+      }
+      .slide {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+      }
+      #slide-1:target ~ .image-container {
+        left: 0px;
+      }
+      #slide-2:target ~ .image-container {
+        left: -500px;
+      }
+      #slide-3:target ~ .image-container {
+        left: -1000px;
+      }
+      .buttons {
+        position: relative;
+        top: -20px;
+      }
+      .buttons a {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        background-color: brown;
+      }
+      * {
+        box-sizing: border-box;
+      }
+
+      .row {
+      display: flex;
+      }
+
+      .column {
+      flex: 33.33%;
+      padding: 4px;
+      }
+      
+        </style>
+        <title> Farming </title>
+        <meta charset="utf-8" />
+
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    </head>
+    
+    <body>
+        <!-- Responsive Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">Agriculture</a>
+
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navBarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navBarCollapse">
+                    <div class="navbar-nav">
+                        <a href="#" class="nav-item nav-link active">Home</a>
+                        <a href="#" class="nav-item nav-link">About Us</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Fields</a>
+                            <div class="dropdown-menu">
+                                <a href="Pesticide.html" class="dropdown-item">Pestisides</a>
+                                <a href="Fertilizers.html" class="dropdown-item">Fertilizers</a>
+                                <a href="Crops.html" class="dropdown-item">Crops</a>
+                                <a href="/Cultivation" class="dropdown-item">Cultivation</a>
+                                <a href="Soil.html" class="dropdown-item">Soil</a>
+                            </div>
+                        </div>
+
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Major Crops</a>
+                            <div class="dropdown-menu">
+                                <a href="wheat.html" class="dropdown-item">Wheat</a>
+                                <a href="maize.html" class="dropdown-item">Maize</a>
+                                <a href="cotton.html" class="dropdown-item">Cotton</a>
+                                <a href="sugarcane.html" class="dropdown-item">Sugarcane</a>
+                                <a href="chilli.html" class="dropdown-item">Chilli</a>
+                            </div>
+                        </div>
+                           
+                    </div>
+                    
+                    <div class="navbar-nav ms-auto">
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">My Account</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Register</a>
+                                <a href="#" class="dropdown-item">Login</a>
+                            </div>
+                        </div>
+                        <a href="#" class="nav-item nav-link">ContactUs</a>
+                    </div>
+
+                    <div class="d-flex">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="search.," />
+                            <button type="button" class="btn btn-secondary">
+                                <i class="bi-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <h3 style="color:red;"><center>CROPS</center></h3>
+        
+            <img src="https://media.istockphoto.com/photos/aerial-view-of-pastures-and-farmlands-in-brittany-france-picture-id1316580662?b=1&k=20&m=1316580662&s=170667a&w=0&h=W-3z3gLbPh_rcATfb2iV5wFf4BJu_91y5EbSiy0GTZc=" class="center" width="500px" height="300px"></a>
+            <center>
+            <h5 style="color: green;">"Agriculture is the art and science of cultivating the soil</h5>
+            <h5 style="color: green;">growing crops and raising livestock"</h5></center>
+
+        <h4>Crops:-</h4>
+        <p>Crops are plants, or products made from plants, that are grown and harvested for subsistence or for profit. 
+            Crops are typically divided into six categories: food crops, feed crops, fiber crops, oil crops, ornamental crops, 
+            and industrial crops.</p>
+            <h5>There are three types of crops based on seasons:</h5>
+            <ol>
+                <li> Kharif Crops.</li>
+                <li>Rabi Crops.</li>
+                <li>Zaid Crops.</li>
+            </ol>
+        <h4>Major Crops:-</h4>
+        <ul>
+        <h5><li><u>Food crops-</u></li></h5>
+        Rice, Wheat, Millets, Maize and Pulses.
+        <h5><li><u>Cash crops-</u></li></h5>
+        Sugarcane, Oilseeds, Horticulture crops, Tea, Coffee, Rubber, Cotton and Jute.
+        </ul>
+
+        <h4><center>Kharif Crop</center></h4>
+        <p>Kharif crops are grown with the onset of monsoon in different parts of the country and these crops are 
+            harvested in September-October.
+            Kharif crops are also called summer crops.
+            are domesticated plants that are cultivated and harvested in India, Pakistan and Bangladesh during the Indian 
+            subcontinent's monsoon season, which lasts from June to November depending on the area.
+             Monsoon rains may begin as early as May in some parts of the Indian subcontinent, and crops are generally harvested
+              from the third week of September to October. Rice, maize, and cotton are some of the major Kharif crops in India.
+               Unlike the Rabi crops, which are grown in the winter, the kharif crops require good rainfall. </p>
+        <p>The Kharif season varies by crop and region, starting at the earliest in May and ending at the latest in January. 
+            In India, the season is popularly considered to start in June and end in October.Kharif crops are usually sown 
+            at the beginning of the first rains during the advent of the south-west monsoon season, and they are harvested at 
+            the end of monsoon season (October-November).
+            Monsoon sowing dates vary, occurring toward the end of May in the southern state of Kerala and reaching July in 
+            some north Indian states. In other regions like Maharashtra, the west coast of India, and Pakistan, which receive 
+            rains in June, Kharif crops are sown in May, June and July. In Bangladesh, Kharif crops are usually sown with
+             the beginning of the first rains in June.
+            These crops are dependent on the quantity of rainwater as well as its timing. Too much, too little, or rain at the 
+            wrong time may lay waste to the whole year's efforts.
+            Kharif crops stand in contrast to the rabi crops, which are cultivated during the dry season. </p>
+        <h5>Common Kharif Crops:</h5>
+        <p>Rice is the most important Kharif crop of India. It is grown in rain-fed areas with hot and humid climates,
+             especially the eastern and southern parts of India. Rice requires a temperature of 16-20 °C (61-68 °F) during
+              the growing season and 18-32 °C (64-90 °F) during ripening. It needs rainfall from 150-200 centimetres (59-79 in) 
+              and needs a flooded field during the growth period.</p>
+              <h4>Cereals:-</h4>
+              <ul>
+              <li style="color: rgb(68, 66, 66);">Jowar</li>
+              <li style="color: rgb(68, 66, 66);">Maize</li>
+              <li style="color: rgb(68, 66, 66);">Millet</li>
+              <li style="color: rgb(68, 66, 66);">Rice</li>
+              </ul>
+              <img src="https://cdn.pixabay.com/photo/2018/08/12/19/49/grains-3601581__340.jpg" alt="Millet" width="300px">
+              <img src="https://media.istockphoto.com/photos/sorghum-bicolor-commonly-called-sorghum-and-also-known-as-great-picture-id1355947615?b=1&k=20&m=1355947615&s=170667a&w=0&h=-Vl-Y4lL5V-iYIsbN6o8Ypjs7U-TZS69ZBvdx8VhuRU=" alt="Jowar" width="300px">
+              <img src="https://media.istockphoto.com/photos/golden-wheat-field-and-sunny-day-picture-id531184656?b=1&k=20&m=531184656&s=170667a&w=0&h=F1WtEnqotF2Ew9CPLHL2NFKwelamCrOcHxAdN2e4uYI=" alt="Wheat" width="300px">
+
+              <h4>Fruits</h4>
+              <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle"  data-bs-toggle="dropdown">Fruits</a>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Almonds</a>
+                    <a href="#" class="dropdown-item">Apples</a>
+                    <a href="#" class="dropdown-item">Litchi</a>
+                    <a href="#" class="dropdown-item">Mango</a>
+                    <a href="#" class="dropdown-item">Watermelon</a>
+                    <a href="#" class="dropdown-item">Muskmelon</a>
+                    <a href="#" class="dropdown-item">Orange</a>
+                    <a href="#" class="dropdown-item">Apricots</a>
+                </div>
+            </div>
+            
+              <img src="https://media.istockphoto.com/photos/almond-in-bowl-picture-id1165645286?b=1&k=20&m=1165645286&s=170667a&w=0&h=vAIAT-CkwTdBVg8gnzoIjLxP-w1JFMSL_kZGwc8T5Sw=" alt="Almonds" width="300px">
+              <img src="https://cdn.pixabay.com/photo/2017/09/26/13/21/apples-2788599__340.jpg" alt="Apples" width="300px">
+              <img src="https://media.istockphoto.com/photos/fresh-lychee-picture-id512283094?b=1&k=20&m=512283094&s=170667a&w=0&h=27BeRfPRfy-BfM_jbf6drIzki6C-eU1p22g0wMiHpFw=" alt="Litchi" width="300px">
+              <img src="https://cdn.pixabay.com/photo/2012/07/09/07/16/mango-51995__340.jpg" alt="Mango" width="300px">
+              <img src="https://media.istockphoto.com/photos/watermelon-picture-id478266756?b=1&k=20&m=478266756&s=170667a&w=0&h=2ZHduKVIrc8OkHLlV8HIZIJcD8eeSJiiQOe-QdCyZEw=" alt="Watermelon" width="300px">
+              <img src="https://media.istockphoto.com/photos/fresh-sweet-orange-melon-and-green-mint-picture-id544449768?b=1&k=20&m=544449768&s=170667a&w=0&h=Wwxq7JMyGVkhFqmNZYqCXm1t0ThhzxQZAuJ_J-TPxF8=" alt="Muskmelon" width="300px">
+              <img src="https://cdn.pixabay.com/photo/2016/01/02/01/59/oranges-1117628__480.jpg" alt="Orange" width="300px">
+              <img src="https://media.istockphoto.com/photos/apricots-with-leaves-picture-id165089494?b=1&k=20&m=165089494&s=170667a&w=0&h=qftBw4iWACqaHedKS71c5ZKdnQe4vvb4q2VZ-xITg5Q=" alt="Apricots" width="300px">
+
+              <h4>Seed Plants:-</h4>
+              <ul>
+              <li style="color: rgb(68, 66, 66);">Black gram</li>
+              <li style="color: rgb(68, 66, 66);">Groundnut</li>
+              <li style="color: rgb(68, 66, 66);">Soybean</li>
+              <li style="color: rgb(68, 66, 66);">Cowpea</li>
+              <li style="color: rgb(68, 66, 66);">Green gram</li>
+              <li style="color: rgb(68, 66, 66);">Fennel</li>
+              <li style="color: rgb(68, 66, 66);">Guar</li>
+              <li style="color: rgb(68, 66, 66);">Sesame</li>
+              </ul>
+
+              <img src="https://media.istockphoto.com/photos/urad-dal-black-gram-vigna-mungo-in-wooden-bowl-on-white-background-picture-id1199248172?b=1&k=20&m=1199248172&s=170667a&w=0&h=pDdfAFTMKmCWAxSCqFSNE6OKhlHuoNdYrX4tlR0bQUQ=" alt="Black gram" width="300px">
+              <img src="https://cdn.pixabay.com/photo/2020/07/17/01/33/nutshell-5412697__340.jpg" alt="Groundnut" width="300px">
+              <img src="https://media.istockphoto.com/photos/top-view-of-healthy-grains-soy-beans-surface-picture-id1124483130?b=1&k=20&m=1124483130&s=170667a&w=0&h=nxqHqiyCegAPxXbUOhIYsuJStdWKuNiNDsGewI1Ltpo=" alt="Soybean" width="300px">
+              <img src="https://media.istockphoto.com/photos/blackeyed-beans-picture-id1302956719?b=1&k=20&m=1302956719&s=170667a&w=0&h=dhM3A-edW1n3xA9ly8HObE22rlNZld_XrbaLRaOkK78=" alt="Cowpea" width="300px">
+              <img src="https://media.istockphoto.com/photos/macro-closeup-of-organic-green-gram-or-whole-green-moong-dal-on-a-picture-id1310279351?b=1&k=20&m=1310279351&s=170667a&w=0&h=3DfpydhX5zk2fFLV2DZIDA5IDsL2KUAmG3htNOg55hM=" alt="Green gram" width="300px">
+              <img src="https://media.istockphoto.com/photos/green-anise-closeup-picture-id908232134?b=1&k=20&m=908232134&s=170667a&w=0&h=ttOggvVBt23qU8moq6etq5MCr01iBmsGj1yRLP5XOno=" alt="Fennel" width="300px">
+              <img src="https://media.istockphoto.com/photos/guar-gum-spilled-from-a-teaspoon-picture-id1384867340?b=1&k=20&m=1384867340&s=170667a&w=0&h=A190RHgihvGkhk0LXsaU-L6LaK61jTehaM70rlCTvjg=" alt="Guar" width="300px">
+              <img src="https://cdn.pixabay.com/photo/2014/04/05/11/39/close-up-316589__340.jpg" alt="Sesame" width="300px">
+
+              <h4>Vegetables:-</h4>
+              <ul>
+              <li style="color: rgb(68, 66, 66);">Bottle gourd</li>
+              <li style="color: rgb(68, 66, 66);">Brinjal</li>
+              <li style="color: rgb(68, 66, 66);">Tinda</li>
+              <li style="color: rgb(68, 66, 66);">Tomato</li>
+              <li style="color: rgb(68, 66, 66);">Bitter gourd</li>
+              <li style="color: rgb(68, 66, 66);">Sponge gourd</li>
+              <li style="color: rgb(68, 66, 66);">Turmeric</li>
+              <li style="color: rgb(68, 66, 66);">Green bean</li>
+              </ul>
+
+              <img src="https://media.istockphoto.com/photos/bottle-gourds-picture-id546017648?b=1&k=20&m=546017648&s=170667a&w=0&h=DwvdRbOQSnVsWcG3s4CbF_Mjz5VdfSvXx_hghd4-ZUw=" alt="Bottle gourd" width="300px" height="200px">
+              <img src="https://media.istockphoto.com/photos/ripe-eggplants-growing-in-the-vegetable-garden-picture-id1309479975?b=1&k=20&m=1309479975&s=170667a&w=0&h=eIdEhaaxhwnY-LbXxcrXGpcrByv-1J1dkf4ZfDFnHmI=" alt="Brinjal" width="300px">
+              <img src="https://media.istockphoto.com/photos/tinda-vegetable-picture-id1398509341?b=1&k=20&m=1398509341&s=170667a&w=0&h=Egg9jrP6M-SU5rlcP0YA_9krrJ6wQggZbtR6AzGHZ4I=" alt="Tinda" width="300px">
+              <img src="https://media.istockphoto.com/photos/tomatos-background-picture-id519663318?b=1&k=20&m=519663318&s=170667a&w=0&h=JHp_75XSY9FZQsg7-576JeZWSNNcYewSoh7vgdWI244=" alt="Tomato" width="300px">   
+              <img src="https://media.istockphoto.com/photos/many-momordica-charantia-bitter-gourds-on-market-in-thailand-picture-id1306662811?b=1&k=20&m=1306662811&s=170667a&w=0&h=UUXoLw6NkEmop2iZE-YgsycOiyK-HZqF3vJ7E-2YwrQ=" alt="Bitter gourd" width="300px" height="230px">
+              <img src="https://media.istockphoto.com/photos/luffa-acutangular-cucurbitaceae-green-vegetable-fresh-in-garden-on-picture-id1299601629?b=1&k=20&m=1299601629&s=170667a&w=0&h=hlqnPKvgP40yRWFBc3DPPrh9ZxPS6Pxf6XhWF6bITxA=" alt="Sponge gourd" width="300px">
+              <img src="https://media.istockphoto.com/photos/turmeric-powder-and-roots-picture-id965503302?b=1&k=20&m=965503302&s=170667a&w=0&h=5WaZTAJugzwshWZd05wbVhidGMqX38wcGKahCrNqpnQ=" alt="Turmeric" width="300px">
+              <img src="https://media.istockphoto.com/photos/portion-of-uncooked-green-french-beans-picture-id140236373?b=1&k=20&m=140236373&s=170667a&w=0&h=RlpVQBG82aFJF8orgZlRhEQ-SpdjwT_YsjBv0a84Ks8=" alt="Green bean" width="300px">
+
+              <h4><center>Rabi Crops</center></h4>
+              <p>Rabi crops or rabi harvest, also known as winter crops, are agricultural crops that are sown in winter and harvested
+                   in the spring in India, Pakistan and Bangladesh. The complimentary of the rabi crop is the kharif crop, which 
+                   is grown after the rabi and zaid (zaa-id) crops are harvested one after another respectively. </p>
+              <p>The rabi crops are sown around mid-November, preferably after the monsoon rains are over, and harvesting begins in 
+                  April / May. The crops are grown either with rainwater that has percolated into the ground or using irrigation.
+                   Good rain in winter spoils the rabi crops but is good for kharif crops.
+                The major rabi crop in India is wheat, followed by barley, mustard, sesame and peas. Peas are harvested early,
+                 as they are ready early: Indian markets are flooded with green peas from January to March, peaking in February.
+                Many crops are cultivated in both kharif and rabi seasons. The agriculture crops produced in India are seasonal
+                 in nature and highly dependent on these two monsoons. </p>
+
+            <h5>Common Rabi Crops:</h5>
+            <p> The major rabi crop in India is wheat, followed by barley, mustard, sesame and peas. Peas are harvested early, 
+                as they are ready early: Indian markets are flooded with green peas from January to March, peaking in February. 
+                Many crops are cultivated in both kharif and rabi seasons.</p>
+
+                <h4>Cereals:-</h4>
+                <ul>
+                <li style="color: rgb(68, 66, 66);">Barley</li>
+                <li style="color: rgb(68, 66, 66);">Rapeseed</li>
+                <li style="color: rgb(68, 66, 66);">Linseed</li>
+                <li style="color: rgb(68, 66, 66);">Oat</li>
+                </ul>
+                <img src="https://media.istockphoto.com/photos/barley-with-grains-picture-id177332977?b=1&k=20&m=177332977&s=170667a&w=0&h=BpbtTq5fmc6V9fZnh-6SzHjmJ5f8IPGvb0bu9Lgk2BY=" alt="Barley" width="300px">
+                <img src="https://media.istockphoto.com/photos/fields-with-rapeseed-on-a-sunny-day-rapeseed-cultivation-picture-id1225178042?b=1&k=20&m=1225178042&s=170667a&w=0&h=uoZQ2VwdM176jgbyOf2YUcFANUBpL-RIaYTtLV9LTfg=" alt="Rapeseed" width="300px">
+                <img src="https://media.istockphoto.com/photos/flax-seed-in-a-jute-bag-picture-id931479712?b=1&k=20&m=931479712&s=170667a&w=0&h=hzNwzfBYkD7Bt0RA-1zA1fBHIsnLTpFbsLR21vf2ZwE=" alt="Linseed" width="300px">
+                <img src="https://media.istockphoto.com/photos/oatmeal-raw-grains-isolated-on-white-background-top-view-picture-id953641768?b=1&k=20&m=953641768&s=170667a&w=0&h=dt6kBlMsLVqHSSX1uRapv03TvCbqTFg2MWwzc_ey06w=" alt="Oat" width="300px">
+
+                <h4>Fruits:-</h4>
+                <ul>
+                <li style="color: rgb(68, 66, 66);">Banana</li>
+                <li style="color: rgb(68, 66, 66);">Grape</li>
+                <li style="color: rgb(68, 66, 66);">Mulberries</li>
+                <li style="color: rgb(68, 66, 66);">Lemon</li>
+                <li style="color: rgb(68, 66, 66);">Guava</li>
+                <li style="color: rgb(68, 66, 66);">Kinnow</li>
+                </ul>
+
+                <img src="https://media.istockphoto.com/photos/fresh-bananas-on-wooden-background-picture-id1187668811?b=1&k=20&m=1187668811&s=170667a&w=0&h=3SxFcfDa4l89IPNqwUNjK7VD4r7SWU0lrWMRNG8qbn8=" alt="Banana" width="300px">
+                <img src="https://media.istockphoto.com/photos/fresh-dark-red-grapes-at-market-place-picture-id93285194?b=1&k=20&m=93285194&s=170667a&w=0&h=mjtL9mEp8CeIqMdKHWKo2H6FBanttx8u59s02nC2ULw=" alt="Grape" width="300px">
+                <img src="https://cdn.pixabay.com/photo/2016/03/24/20/17/red-1277538__340.jpg" alt="Mulberries" width="300px">
+                <img src="https://cdn.pixabay.com/photo/2017/02/05/12/31/lemons-2039830__340.jpg" alt="Lemon" width="300px">
+                <img src="https://media.istockphoto.com/photos/guava-fruit-on-black-background-picture-id1326741412?b=1&k=20&m=1326741412&s=170667a&w=0&h=Ym3pTHqIapLKkb_jiPEkXAHNvU9k9n66clzlUhuK9wI=" alt="Guava" width="300px">
+                <img src="https://media.istockphoto.com/photos/clementines-on-dark-wooden-background-picture-id1341663558?b=1&k=20&m=1341663558&s=170667a&w=0&h=uyafoifdC4IBLKxuiEzPwA2afj8NacgL7PV38IpHmsE=" alt="Kinnow" width="300px">
+
+                <h4>Seed Plants:-</h4>
+                <ul>
+                <li style="color: rgb(68, 66, 66);">Coriander</li>
+                <li style="color: rgb(68, 66, 66);">Cumin</li>
+                <li style="color: rgb(68, 66, 66);">Sunflower</li>
+                <li style="color: rgb(68, 66, 66);">Mustard</li>
+                </ul>
+
+                <img src="https://media.istockphoto.com/photos/top-view-of-dried-coriander-fruits-also-known-as-coriander-seeds-picture-id1297221887?b=1&k=20&m=1297221887&s=170667a&w=0&h=kcDLdZN91a4TLQNt0eQqpFL3CH5cAaDfU_vfZ2Kl9fE=" alt="Coriander" width="300px">
+                <img src="https://media.istockphoto.com/photos/cumin-seeds-in-wooden-spoon-picture-id585162374?b=1&k=20&m=585162374&s=170667a&w=0&h=qTki2oERzXPHKb2HbD8Ep8Ud-pA_cRTPrIuFv-1FqsQ=" alt="Cumin" width="300px">
+                <img src="https://media.istockphoto.com/photos/top-view-of-sunflower-seeds-isolated-on-white-background-picture-id1094717300?b=1&k=20&m=1094717300&s=170667a&w=0&h=hHqeAFTH7gEgAor7fee1_lUPA0n-bAg_DXTwhleCZuA=" alt="Sunflower" width="300px">
+                <img src="https://media.istockphoto.com/photos/pile-of-mustard-seeds-with-mustard-flower-on-top-picture-id461961359?b=1&k=20&m=461961359&s=170667a&w=0&h=tx3kmTtHbYxWd-j5WwLzYwrVvDJ2dxFGPtI1AvX7RsE=" alt="Mustard" width="300px">
+
+                <h4>Vegetables:-</h4>
+                <ul>
+                <li style="color: rgb(68, 66, 66);">Beetroot</li>
+                <li style="color: rgb(68, 66, 66);">Capsicum</li>
+                <li style="color: rgb(68, 66, 66);">Garlic</li>
+                <li style="color: rgb(68, 66, 66);">Cauliflowers</li>
+                <li style="color: rgb(68, 66, 66);">Lady's finger</li>
+                <li style="color: rgb(68, 66, 66);">Onion</li>
+                <li style="color: rgb(68, 66, 66);">Sweet Potato</li>
+                <li style="color: rgb(68, 66, 66);">Spinach</li>
+                </ul>
+
+                <img src="https://media.istockphoto.com/photos/red-beetroot-with-green-leaves-picture-id599695694?b=1&k=20&m=599695694&s=170667a&w=0&h=V4b7ATH5UFOqygBD53AZyVJlw7AbXxoPT2MHkILlQ4k=" alt="Beetroot" width="300px">
+                <img src="https://cdn.pixabay.com/photo/2017/09/25/20/44/peppers-2786684__340.jpg" alt="Capsicum" width="300px">
+                <img src="https://media.istockphoto.com/photos/closeup-of-garlic-bulbs-on-wooden-table-with-garlics-blur-backgrounda-picture-id1340230644?b=1&k=20&m=1340230644&s=170667a&w=0&h=SX5pf00_yjqkJQJKiTjzHoRpHvGhGj34c0IumYFrv4s=" alt="Garlic" width="300px">
+                <img src="https://media.istockphoto.com/photos/cauliflower-grows-in-organic-soil-in-the-garden-on-the-vegetable-area-picture-id1190388298?b=1&k=20&m=1190388298&s=170667a&w=0&h=qn96s2FeHv9qL8fi4yT4I1UM84wmDJh0mUMibe51vw4=" alt="Cauliflowers" width="300px">
+                <img src="https://cdn.pixabay.com/photo/2017/09/28/11/06/okra-flower-2795148__340.jpg" alt="Lady's finger" width="300px">
+                <img src="https://cdn.pixabay.com/photo/2016/03/05/19/14/onions-1238332__340.jpg" alt="Onion" width="300px">
+                <img src="https://media.istockphoto.com/photos/harvesting-sweet-potatoes-picture-id1163065638?b=1&k=20&m=1163065638&s=170667a&w=0&h=iBKFBliqjufG8Ki4qa9Gbgn-r2gNPi92ibAftOXb6Z8=" alt="Sweet Potato" width="300px">
+                <img src="https://media.istockphoto.com/photos/spinach-picture-id522189977?b=1&k=20&m=522189977&s=170667a&w=0&h=4IWiq29w7Kmj625mOOYKZhgxnYb8avGJZf8X9duZyiM=" alt="Spinach" width="300px">
+
+                <h4><center>Zaid Crops</center></h4>
+                <p>Zaid crops are summer season crops. They grow for a short time period between kharif and rabi crops, 
+                    mainly from March to June. These crops are mainly grown in the summer season during a period called 
+                    the zaid crop season. They require warm dry weather as major growth period and longer day length for 
+                    flowering. Some summer months and rainy season is required. These crops also mature early.
+                    In between the rabi and the kharif seasons, there is a short season during the summer months known as
+                     the zaid season. Some of the crops produced during zaid season are watermelon, muskmelon, cucumber,
+                      vegetables and fodder crops</p>
+                
+                      <h4>Zaid Crops:-</h4>
+                      <ul>
+                      <li style="color: rgb(68, 66, 66);">Cucumber</li>
+                      <li style="color: rgb(68, 66, 66);">Strawberry</li>
+                      <li style="color: rgb(68, 66, 66);">Masur</li>
+                      <li style="color: rgb(68, 66, 66);">Sugarcane</li>
+                      <li style="color: rgb(68, 66, 66);">Arhar</li>
+                      <li style="color: rgb(68, 66, 66);">Guar</li>
+                      <li style="color: rgb(68, 66, 66);">Pumpkin</li>
+                      <li style="color: rgb(68, 66, 66);">Fodder</li>
+                      </ul>
+
+                      <img src="https://media.istockphoto.com/photos/cucumber-slices-on-a-white-background-picture-id91516166?b=1&k=20&m=91516166&s=170667a&w=0&h=AH0daCk1BAk2PctcaPIXGq7b8-3FU4-Q3f4kqfOP44w=" alt="Cucumber" width="300px">
+                      <img src="https://media.istockphoto.com/photos/closeup-of-woman-hands-holding-freshly-picked-strawberries-in-garden-picture-id1310751628?b=1&k=20&m=1310751628&s=170667a&w=0&h=gn6O6JdtIct0hEFzEKm40GA-qJ2tJK26x-8urGUO8eA=" alt="Strawberry" width="300px">
+                      <img src="https://media.istockphoto.com/photos/red-lentil-beans-organic-abel-cole-orange-daal-masur-picture-id1310410296?b=1&k=20&m=1310410296&s=170667a&w=0&h=SWZc8qqEh6YIuC1YSCSx387fXVBrqpEIMJ-eZ6nDn5o=" alt="Masur" width="300px">
+                      <img src="https://media.istockphoto.com/photos/close-up-sugarcane-picture-id528316683?b=1&k=20&m=528316683&s=170667a&w=0&h=vkosIQiGyU6CTBO7gb_66xIy_JNtvSHL3bniZ9UHnzg=" alt="Sugarcane" width="300px">
+                      <img src="https://media.istockphoto.com/photos/macro-closeup-of-organic-arhar-dal-on-a-white-ceramic-soup-spoon-top-picture-id1324180587?b=1&k=20&m=1324180587&s=170667a&w=0&h=3mQkWO2vE0267d0cxhFHsEXmSBgyxdYFMC_3rYmAaEg=" alt="Arhar" width="300px">
+                      <img src="https://media.istockphoto.com/photos/guar-gum-in-a-bowl-picture-id1384867368?b=1&k=20&m=1384867368&s=170667a&w=0&h=vF652qKBy60M0u3kyTTqtYnW2bZxsT9KcVq9w1pxSCo=" alt="Guar" width="300px">
+                      <img src="https://cdn.pixabay.com/photo/2019/09/05/18/20/harvest-4454745__340.jpg" alt="Pumpkin" width="300px">
+                      <img src="https://cdn.pixabay.com/photo/2016/06/18/10/26/barley-1464772__340.jpg" alt="Fodder" width="300px">            
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+          <img src="img/logo.png">
+			
+
+				<p class="footer-links">
+					<a href="#">Home</a>
+					|
+					<a href="#">About</a>
+					|
+					<a href="#">Contact</a>
+				</p>
+
+				<p class="footer-company-name">© 2020 Try shades Pvt Ltd.All Rights Reserved</p>
+			</div>
+
+			<div class="footer-center">
+				<div>
+					<i class="fa fa-map-marker"></i>
+					  <p><span>RGUKT IIIT IDUPULAPAYA</span>
+						Vempalli, Kadapa- 516330</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+91 xxxxxxxxxx</p>
+				</div>
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="Tryshades@gmail.com.com">tryshades@gmail.com</a></p>
+				</div>
+			</div>
+			<div class="footer-right">
+				<p class="footer-company-about">
+					<span>About the company</span>
+					The information and services may contain bugs, errors, problems or other limitations. We have no liability whatsoever for your use of any information or service. Use any service or information given here at your own risk. Read our full Terms of Service.</p>
+				<div class="footer-icons">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-youtube"></i></a>
+				</div>
+			</div>
+		</footer>
+          
+
+                      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+       
+                    </body>
+                </html>

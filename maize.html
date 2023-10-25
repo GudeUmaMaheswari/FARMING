@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<link href="footer.css" rel="stylesheet">
+        <style>
+
+h3{
+    text-align:center;
+ }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
+.slider {
+        width: 500px;
+        height: 300px;
+        background-color: yellow;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        text-align: center;
+        overflow: hidden;
+      }
+      .image-container {
+        width: 1500px;
+        background-color: pink;
+        height: 300px;
+        clear: both;
+        position: relative;
+        -webkit-transition: left 2s;
+        -moz-transition: left 2s;
+        -o-transition: left 2s;
+        transition: left 2s;
+      }
+      .slide {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+      }
+      #slide-1:target ~ .image-container {
+        left: 0px;
+      }
+      #slide-2:target ~ .image-container {
+        left: -500px;
+      }
+      #slide-3:target ~ .image-container {
+        left: -1000px;
+      }
+      .buttons {
+        position: relative;
+        top: -20px;
+      }
+      .buttons a {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        background-color: brown;
+      }
+      * {
+        box-sizing: border-box;
+      }
+
+      .row {
+      display: flex;
+      }
+
+      .column {
+      flex: 33.33%;
+      padding: 4px;
+      }
+      
+        </style>
+        <title> Farming </title>
+        <meta charset="utf-8" />
+
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    </head>
+    
+    <body>
+        <!-- Responsive Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">Agriculture</a>
+
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navBarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navBarCollapse">
+                    <div class="navbar-nav">
+                        <a href="#" class="nav-item nav-link active">Home</a>
+                        <a href="#" class="nav-item nav-link">About Us</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Fields</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Pestisides</a>
+                                <a href="#" class="dropdown-item">Fertilizers</a>
+                                <a href="#" class="dropdown-item">Crops</a>
+                                <a href="#" class="dropdown-item">Cultivation</a>
+                                <a href="#" class="dropdown-item">Soil</a>
+                            </div>
+                        </div>
+
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Major Crops</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Wheat</a>
+                                <a href="#" class="dropdown-item">Maize</a>
+                                <a href="#" class="dropdown-item">Cotton</a>
+                                <a href="#" class="dropdown-item">Sugarcane</a>
+                                <a href="#" class="dropdown-item">Chilli</a>
+                            </div>
+                        </div>
+                           
+                    </div>
+                    
+                    <div class="navbar-nav ms-auto">
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">My Account</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Register</a>
+                                <a href="#" class="dropdown-item">Login</a>
+                            </div>
+                        </div>
+                        <a href="#" class="nav-item nav-link">ContactUs</a>
+                    </div>
+
+                    <div class="d-flex">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="search.," />
+                            <button type="button" class="btn btn-secondary">
+                                <i class="bi-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    <h3 style="color:red;"><center>MAIZE</center></h3>
+        
+    <img src="https://cdn.pixabay.com/photo/2020/08/04/14/57/maize-5463051__340.jpg" alt="maize" width="800" height="345" class="center">
+    <h4>Introduction:-</h4>
+    <p>In India, Maize is grown throughout the year. It is predominantly a kharif crop with 85 per cent of the 
+        area under cultivation in the season. Maize is the third most important cereal crop in India after rice 
+        and wheat. It accounts for around 10 per cent of total food grain production in the country.
+        Maize has become a staple food in many parts of the world, with the total production of maize
+         surpassing that of wheat or rice. In addition to being consumed directly by humans 
+         (often in the form of masa), maize is also used for corn ethanol, animal feed and other maize products,
+          such as corn starch and corn syrup.</p>
+    <h4>Major Farming Places:-</h4>
+    <p>The predominant maize growing states that contributes more than 80 % of the total maize production
+         are Andhra Pradesh (20.9 %), Karnataka (16.5 %), Rajasthan (9.9 %), Maharashtra (9.1 %), Bihar (8.9 %),
+          Uttar Pradesh (6.1 %), Madhya Pradesh (5.7 %), Himachal Pradesh (4.4 %).</p>
+    <h4>Varieties:-</h4>
+    <p>About 50 species exist and consist of different colors, textures, and grain shapes and sizes.
+         White, yellow, and red are the most common cultivated maize types. The white and yellow varieties
+          are preferred by most people depending on the region.</p>
+          <ul>
+              <li>Dent corn</li>
+              <li>Flint corn</li>
+              <li>Pod corn</li>
+              <li>Popcorn</li>
+              <li>Flour corn</li>
+              <li>Sweet corn.</li>
+            </ul>
+    <h4>Climate:-</h4>
+    <p>It is a crop of semi-arid climate and is used both as food and fodder. A temperature of 21degrees- 27degrees 
+        and 50-100cm rainfall is suitable for its cultivation. Alternate spells of rains and sunny weather 
+        are ideal for maize.
+        Maize crop is warm weather loving plant and grows in almost every weather</p>
+    <h4>Best Soil:-</h4>
+    <p>Maize can be grown successfully in variety of soils ranging from loamy sand to clay loam. However, 
+        soils with good organic matter content having high water holding capacity with neutral pH are 
+        considered good for higher productivity.
+        The very most basic thing for growing really good crops is good soil. Soil that is not only 
+        high in fertility, but is alive with beneficial organisms. The ideal soil for growing corn is 
+        deep (six or more feet), medium-textured and loose, well-drained, high in water-holding capacity 
+        and organic matter, and able to supply all the nutrients the plant needs. Of course, not everyone 
+        has the perfect soil, and corn isn't so fussy that it can't do well on less than ideal soil. But I 
+        will show you how to build up your soil so that you can grow much better corn. </p>
+    <h4>Land Preparation:-</h4>
+    <p> Maize requires a firm and compact seedbed free from stubbles and weed. One deep ploughing should be
+        given, followed by two or three harrowings to bring the soil to a fine tilth. Add 10-15 tons of 
+        FYM or compost before last harrowing and mix thoroughly with harrow</p>
+        <div class="slider">
+            <span id="slide-1"></span>
+            <span id="slide-2"></span>
+            <span id="slide-3"></span>
+            <div class="image-container">
+              <img src="https://media.istockphoto.com/photos/aerial-view-of-red-tractor-working-in-field-picture-id1392409646?b=1&k=20&m=1392409646&s=170667a&w=0&h=yozGJCRDop3buyTBmZpin6OxLigKIAq1HzMAjsB3Dpo=" class="slide" width="500" height="300" />
+              <img src="https://media.istockphoto.com/photos/close-up-low-angle-view-at-row-of-young-corn-stalks-at-field-spring-picture-id1327938763?b=1&k=20&m=1327938763&s=170667a&w=0&h=H1XBgRjr-JaMaEFtUPPGG9OJ8_BvaiqajlDr49zCkHI=" class="slide" width="500" height="300" />
+              <img src="https://media.istockphoto.com/photos/corn-harvest-on-a-farmland-in-sunset-picture-id1345323152?b=1&k=20&m=1345323152&s=170667a&w=0&h=wqzvmhafbEt9wosKms0aN7yPCD7mia7QQHGDhhkSQXc=" class="slide" width="500" height="300" />
+              
+            </div>
+            <div class="buttons">
+              <a href="#slide-1"></a>
+              <a href="#slide-2"></a>
+              <a href="#slide-3"></a>
+            </div>
+          </div>
+    <h4>Propagation:-</h4>
+    <p>Maize is an out-crossing species normally propagated from seed . Vegetative propagation, however, 
+        could be a useful tool in maize research. Mating designs developed for multiflowered plants,
+         e.g., Design II of COMSTOCK and ROBINSON (1952), could be carried out with clonal material.
+         Usually, meristems, shoot tips, and other vegetative organ/tissue of elite plants seem to be
+          selected as original inocula for industrial mass clonal propagation of desired genotypes.</p>
+    <h4>Sowing Time:-</h4>
+    <p>In kharif season, crop is sown in month of May end to June corresponding with the onset of monsoon. 
+        Spring crops are sown during late February to end of march. Plantation of baby corn can be done all
+         the year round, except December and January. Kharif and rabi season are best for sweet corn sowing.
+         For market and demand reasons, it is better to start your maize farm within the early planting season. 
+         The optimum planting date is between 15th March and 15th May. It is important to understand that 
+         the fertility of a soil determines the need for fertilizers or not.</p>
+    <h4>Direct Sowing:-</h4>
+    <p>Maize is mainly sown directly through seed by using different methods of tillage & establishment. 
+        Recently, resource conservation technologies (RCTs) namely, zero tillage, minimum tillage, 
+        surface seeding etc. had came in practice in various maize based cropping system and 
+        are cost effective and environment friendly.</p>
+    <h4>Irrigation/Water Supply:-</h4>
+    <p>Maize crop is sensitive to both moisture stress and excessive moisture, hence regulate irrigation 
+        according to the requirement. Ensure optimum moisture availability during the most critical phase
+         (45 to 65 days after sowing); otherwise yield will be reduced by a considerable extent.
+         Furrow irrigation is best used for irrigating row crops such as maize, vegetables and trees. 
+         Border irrigation is particularly suitable for close growing crops such as alfalfa, 
+         but border irrigation can also be used for row crops and trees.</p>
+    <h4>Weed Control:-</h4>
+    <p> Weeds damage significantly to maize production and the critical period for crop-weed completion 
+        is 15-45 days after sowing.
+        Pre-emergence atrazine application followed by one hand weeding at 35-40 days gives good weed control.
+        Apply herbicide when there is sufficient moisture in the soil.
+        Do not disturb the soil after herbicide application. </p>
+    <h4>Maize Based Cropping System:-</h4>
+    <p> As maize has wide adaptability and compatibility under diverse soil and climatic conditions and hence 
+        it is cultivated in sequence with different crops under various agro-ecologies of the country.</p>
+        <ul>
+            <li>Maize-Pea</li>
+            <li>Maize-Carrot</li>
+            <li>Maize-Cauliflower</li>
+            <li>Sugarcane-Maize</li>
+            <li>Wheat-Maize</li>
+            <li>Maize-potato-wheat</li>
+            <li>Maize-potato-sunflower</li>
+            <li>Maize-potato-onion</li>
+        </ul>
+    <h4>Manure & Fertilizers:-</h4>
+    <p>In Maize crop, apply NPK fertilizers as per soil test recommendation. If soil testing recommendation 
+        is not available then adopt the recommendation of 135: 62.5: 50 NPK kg per hectare, ZnSO4 37.5 kg per
+         hectare. Apply a quarter of N diet; a full dose of P2O and K2O before sowing.
+         Maize can easily achieve 9 tons/ha (40 bags per acre) with the right agronomy and adequate moisture,
+          but it does require adequate nutrition to achieve this. The amount of fertilizer required is best 
+          calculated by multiplying the target yield in tons per hectare, by 20-25 Kg.
+          It has been reported that maize is a heavy feeder of nitrogen and that it requires nitrogen
+           application at four weeks after planting.
+           The study clearly indicated that cattle manure significantly improved the performances of
+            maize and soil fertility proportional with the increased in the rates with 20 t/ha-1 rate giving 
+            the best performances.</p>
+    <h4>Insect and Pest Control:-</h4>
+    <p>There are four major pests of maize prevalent in India. These are spotted stem borer
+         [Chilo partellus (Swinhoe)], pink stem borer [Sesamia inferens Walker], shoot fly [Atherigona spp.] 
+         and fall armyworm Spodoptera frugiperda.
+         Chemical control of eyespot has proven effective in Maize Growers Association trials. Fungicide mixes 
+         such as Comet (Pyraclostrobin) or Quilt Xcel (Azoxystrobin + propiconazole) have been shown to give 
+         six weeks protection and delay the eyespot infection. </p>
+    <h4>Harvesting:-</h4>
+    <p>Image result for harvesting of maize
+        Seasons of Maize Kharif are in June to July and August and harvested in December. These are the 
+        maize cropping season in India. The major states for Kharif corn farming in India are Andhra Pradesh,
+         Uttar Pradesh, Karnataka, Madhya Pradesh and Maharashtra.
+         The plants are cut and piled up in the shade and the cobs are removed after two or three days of harvesting.
+          The dried plants are used for haymaking.Maize grown for fodder are harvested at the milk to early
+           dough stage. The earlier harvested crop usually yields less and is poor in protein content.</p>
+           <img src="https://media.istockphoto.com/photos/beautiful-view-of-corn-farm-during-sunset-picture-id649730320?b=1&k=20&m=649730320&s=170667a&w=0&h=AEt96PeyGKbWjJIKl6iUOhHDdoXtlbbP31t713lm2Qs=" width="400px">
+           <img src="https://cdn.pixabay.com/photo/2018/01/07/13/53/crop-3067356__340.jpg" width="400px">
+           <img src="https://media.istockphoto.com/photos/full-frame-of-corn-cereal-picture-id1308987649?b=1&k=20&m=1308987649&s=170667a&w=0&h=LL5fcDcN_qkPOqlITfx_-1RdNZOBefIO27nx8bxWPSA=" width="400px">
+    <h4>Yield:-</h4>
+    <p>Officials said the world average of maize yield was 2,357 kg per acre although it was much higher 
+        in the United States of America (USA) at 4,262 kg per acre. In the country, the average maize 
+        yield during 2019-20 was 1,973 kg per acre and in Telangana in the last five years yield of maize
+         has been 2,600 kg per acre.</p>
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+          <img src="img/logo.png">
+			
+
+				<p class="footer-links">
+					<a href="#">Home</a>
+					|
+					<a href="#">About</a>
+					|
+					<a href="#">Contact</a>
+				</p>
+
+				<p class="footer-company-name">© 2020 Try shades Pvt Ltd.All Rights Reserved</p>
+			</div>
+
+			<div class="footer-center">
+				<div>
+					<i class="fa fa-map-marker"></i>
+					  <p><span>RGUKT IIIT IDUPULAPAYA</span>
+						Vempalli, Kadapa- 516330</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+91 xxxxxxxxxx</p>
+				</div>
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="Tryshades@gmail.com.com">tryshades@gmail.com</a></p>
+				</div>
+			</div>
+			<div class="footer-right">
+				<p class="footer-company-about">
+					<span>About the company</span>
+					The information and services may contain bugs, errors, problems or other limitations. We have no liability whatsoever for your use of any information or service. Use any service or information given here at your own risk. Read our full Terms of Service.</p>
+				<div class="footer-icons">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-youtube"></i></a>
+				</div>
+			</div>
+		</footer>
+
+
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+       
+        </body>
+    </html>
